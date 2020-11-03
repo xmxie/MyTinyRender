@@ -1,0 +1,64 @@
+﻿main.obj : error LNK2019: 无法解析的外部符号 "void __cdecl cv::fastFree(void *)" (?fastFree@cv@@YAXPAX@Z)，该符号在函数 "public: __thiscall cv::Mat::~Mat(void)" (??1Mat@cv@@QAE@XZ) 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 "public: void __thiscall cv::Mat::deallocate(void)" (?deallocate@Mat@cv@@QAEXXZ)，该符号在函数 "public: void __thiscall cv::Mat::release(void)" (?release@Mat@cv@@QAEXXZ) 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 "class cv::Mat __cdecl cv::imread(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,int)" (?imread@cv@@YA?AVMat@1@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@H@Z)，该符号在函数 _main 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 "void __cdecl cv::imshow(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class cv::debug_build_guard::_InputArray const &)" (?imshow@cv@@YAXABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@ABV_InputArray@debug_build_guard@1@@Z)，该符号在函数 _main 中被引用
+E:\Environment\opencv_contrib-4.2.0\install\x64\vc14\lib\opencv_aruco420d.lib : warning LNK4272: 库计算机类型“x64”与目标计算机类型“x86”冲突
+E:\Environment\opencv_contrib-4.2.0\install\x64\vc14\lib\opencv_bgsegm420d.lib : warning LNK4272: 库计算机类型“x64”与目标计算机类型“x86”冲突
+E:\Environment\opencv_contrib-4.2.0\install\x64\vc14\lib\opencv_bioinspired420d.lib : warning LNK4272: 库计算机类型“x64”与目标计算机类型“x86”冲突
+E:\Environment\opencv_contrib-4.2.0\install\x64\vc14\lib\opencv_calib3d420d.lib : warning LNK4272: 库计算机类型“x64”与目标计算机类型“x86”冲突
+E:\Environment\opencv_contrib-4.2.0\install\x64\vc14\lib\opencv_ccalib420d.lib : warning LNK4272: 库计算机类型“x64”与目标计算机类型“x86”冲突
+E:\Environment\opencv_contrib-4.2.0\install\x64\vc14\lib\opencv_core420d.lib : warning LNK4272: 库计算机类型“x64”与目标计算机类型“x86”冲突
+E:\Environment\opencv_contrib-4.2.0\install\x64\vc14\lib\opencv_cudaarithm420d.lib : warning LNK4272: 库计算机类型“x64”与目标计算机类型“x86”冲突
+E:\Environment\opencv_contrib-4.2.0\install\x64\vc14\lib\opencv_cudabgsegm420d.lib : warning LNK4272: 库计算机类型“x64”与目标计算机类型“x86”冲突
+E:\Environment\opencv_contrib-4.2.0\install\x64\vc14\lib\opencv_cudacodec420d.lib : warning LNK4272: 库计算机类型“x64”与目标计算机类型“x86”冲突
+E:\Environment\opencv_contrib-4.2.0\install\x64\vc14\lib\opencv_cudafeatures2d420d.lib : warning LNK4272: 库计算机类型“x64”与目标计算机类型“x86”冲突
+E:\Environment\opencv_contrib-4.2.0\install\x64\vc14\lib\opencv_cudafilters420d.lib : warning LNK4272: 库计算机类型“x64”与目标计算机类型“x86”冲突
+E:\Environment\opencv_contrib-4.2.0\install\x64\vc14\lib\opencv_cudaimgproc420d.lib : warning LNK4272: 库计算机类型“x64”与目标计算机类型“x86”冲突
+E:\Environment\opencv_contrib-4.2.0\install\x64\vc14\lib\opencv_cudalegacy420d.lib : warning LNK4272: 库计算机类型“x64”与目标计算机类型“x86”冲突
+E:\Environment\opencv_contrib-4.2.0\install\x64\vc14\lib\opencv_cudaobjdetect420d.lib : warning LNK4272: 库计算机类型“x64”与目标计算机类型“x86”冲突
+E:\Environment\opencv_contrib-4.2.0\install\x64\vc14\lib\opencv_cudaoptflow420d.lib : warning LNK4272: 库计算机类型“x64”与目标计算机类型“x86”冲突
+E:\Environment\opencv_contrib-4.2.0\install\x64\vc14\lib\opencv_cudastereo420d.lib : warning LNK4272: 库计算机类型“x64”与目标计算机类型“x86”冲突
+E:\Environment\opencv_contrib-4.2.0\install\x64\vc14\lib\opencv_cudawarping420d.lib : warning LNK4272: 库计算机类型“x64”与目标计算机类型“x86”冲突
+E:\Environment\opencv_contrib-4.2.0\install\x64\vc14\lib\opencv_cudev420d.lib : warning LNK4272: 库计算机类型“x64”与目标计算机类型“x86”冲突
+E:\Environment\opencv_contrib-4.2.0\install\x64\vc14\lib\opencv_datasets420d.lib : warning LNK4272: 库计算机类型“x64”与目标计算机类型“x86”冲突
+E:\Environment\opencv_contrib-4.2.0\install\x64\vc14\lib\opencv_dnn420d.lib : warning LNK4272: 库计算机类型“x64”与目标计算机类型“x86”冲突
+E:\Environment\opencv_contrib-4.2.0\install\x64\vc14\lib\opencv_dnn_objdetect420d.lib : warning LNK4272: 库计算机类型“x64”与目标计算机类型“x86”冲突
+E:\Environment\opencv_contrib-4.2.0\install\x64\vc14\lib\opencv_dnn_superres420d.lib : warning LNK4272: 库计算机类型“x64”与目标计算机类型“x86”冲突
+E:\Environment\opencv_contrib-4.2.0\install\x64\vc14\lib\opencv_dpm420d.lib : warning LNK4272: 库计算机类型“x64”与目标计算机类型“x86”冲突
+E:\Environment\opencv_contrib-4.2.0\install\x64\vc14\lib\opencv_face420d.lib : warning LNK4272: 库计算机类型“x64”与目标计算机类型“x86”冲突
+E:\Environment\opencv_contrib-4.2.0\install\x64\vc14\lib\opencv_features2d420d.lib : warning LNK4272: 库计算机类型“x64”与目标计算机类型“x86”冲突
+E:\Environment\opencv_contrib-4.2.0\install\x64\vc14\lib\opencv_flann420d.lib : warning LNK4272: 库计算机类型“x64”与目标计算机类型“x86”冲突
+E:\Environment\opencv_contrib-4.2.0\install\x64\vc14\lib\opencv_fuzzy420d.lib : warning LNK4272: 库计算机类型“x64”与目标计算机类型“x86”冲突
+E:\Environment\opencv_contrib-4.2.0\install\x64\vc14\lib\opencv_gapi420d.lib : warning LNK4272: 库计算机类型“x64”与目标计算机类型“x86”冲突
+E:\Environment\opencv_contrib-4.2.0\install\x64\vc14\lib\opencv_hfs420d.lib : warning LNK4272: 库计算机类型“x64”与目标计算机类型“x86”冲突
+E:\Environment\opencv_contrib-4.2.0\install\x64\vc14\lib\opencv_highgui420d.lib : warning LNK4272: 库计算机类型“x64”与目标计算机类型“x86”冲突
+E:\Environment\opencv_contrib-4.2.0\install\x64\vc14\lib\opencv_imgcodecs420d.lib : warning LNK4272: 库计算机类型“x64”与目标计算机类型“x86”冲突
+E:\Environment\opencv_contrib-4.2.0\install\x64\vc14\lib\opencv_imgproc420d.lib : warning LNK4272: 库计算机类型“x64”与目标计算机类型“x86”冲突
+E:\Environment\opencv_contrib-4.2.0\install\x64\vc14\lib\opencv_img_hash420d.lib : warning LNK4272: 库计算机类型“x64”与目标计算机类型“x86”冲突
+E:\Environment\opencv_contrib-4.2.0\install\x64\vc14\lib\opencv_line_descriptor420d.lib : warning LNK4272: 库计算机类型“x64”与目标计算机类型“x86”冲突
+E:\Environment\opencv_contrib-4.2.0\install\x64\vc14\lib\opencv_ml420d.lib : warning LNK4272: 库计算机类型“x64”与目标计算机类型“x86”冲突
+E:\Environment\opencv_contrib-4.2.0\install\x64\vc14\lib\opencv_objdetect420d.lib : warning LNK4272: 库计算机类型“x64”与目标计算机类型“x86”冲突
+E:\Environment\opencv_contrib-4.2.0\install\x64\vc14\lib\opencv_optflow420d.lib : warning LNK4272: 库计算机类型“x64”与目标计算机类型“x86”冲突
+E:\Environment\opencv_contrib-4.2.0\install\x64\vc14\lib\opencv_phase_unwrapping420d.lib : warning LNK4272: 库计算机类型“x64”与目标计算机类型“x86”冲突
+E:\Environment\opencv_contrib-4.2.0\install\x64\vc14\lib\opencv_photo420d.lib : warning LNK4272: 库计算机类型“x64”与目标计算机类型“x86”冲突
+E:\Environment\opencv_contrib-4.2.0\install\x64\vc14\lib\opencv_plot420d.lib : warning LNK4272: 库计算机类型“x64”与目标计算机类型“x86”冲突
+E:\Environment\opencv_contrib-4.2.0\install\x64\vc14\lib\opencv_quality420d.lib : warning LNK4272: 库计算机类型“x64”与目标计算机类型“x86”冲突
+E:\Environment\opencv_contrib-4.2.0\install\x64\vc14\lib\opencv_reg420d.lib : warning LNK4272: 库计算机类型“x64”与目标计算机类型“x86”冲突
+E:\Environment\opencv_contrib-4.2.0\install\x64\vc14\lib\opencv_rgbd420d.lib : warning LNK4272: 库计算机类型“x64”与目标计算机类型“x86”冲突
+E:\Environment\opencv_contrib-4.2.0\install\x64\vc14\lib\opencv_saliency420d.lib : warning LNK4272: 库计算机类型“x64”与目标计算机类型“x86”冲突
+E:\Environment\opencv_contrib-4.2.0\install\x64\vc14\lib\opencv_shape420d.lib : warning LNK4272: 库计算机类型“x64”与目标计算机类型“x86”冲突
+E:\Environment\opencv_contrib-4.2.0\install\x64\vc14\lib\opencv_stereo420d.lib : warning LNK4272: 库计算机类型“x64”与目标计算机类型“x86”冲突
+E:\Environment\opencv_contrib-4.2.0\install\x64\vc14\lib\opencv_stitching420d.lib : warning LNK4272: 库计算机类型“x64”与目标计算机类型“x86”冲突
+E:\Environment\opencv_contrib-4.2.0\install\x64\vc14\lib\opencv_structured_light420d.lib : warning LNK4272: 库计算机类型“x64”与目标计算机类型“x86”冲突
+E:\Environment\opencv_contrib-4.2.0\install\x64\vc14\lib\opencv_superres420d.lib : warning LNK4272: 库计算机类型“x64”与目标计算机类型“x86”冲突
+E:\Environment\opencv_contrib-4.2.0\install\x64\vc14\lib\opencv_surface_matching420d.lib : warning LNK4272: 库计算机类型“x64”与目标计算机类型“x86”冲突
+E:\Environment\opencv_contrib-4.2.0\install\x64\vc14\lib\opencv_text420d.lib : warning LNK4272: 库计算机类型“x64”与目标计算机类型“x86”冲突
+E:\Environment\opencv_contrib-4.2.0\install\x64\vc14\lib\opencv_tracking420d.lib : warning LNK4272: 库计算机类型“x64”与目标计算机类型“x86”冲突
+E:\Environment\opencv_contrib-4.2.0\install\x64\vc14\lib\opencv_video420d.lib : warning LNK4272: 库计算机类型“x64”与目标计算机类型“x86”冲突
+E:\Environment\opencv_contrib-4.2.0\install\x64\vc14\lib\opencv_videoio420d.lib : warning LNK4272: 库计算机类型“x64”与目标计算机类型“x86”冲突
+E:\Environment\opencv_contrib-4.2.0\install\x64\vc14\lib\opencv_videostab420d.lib : warning LNK4272: 库计算机类型“x64”与目标计算机类型“x86”冲突
+E:\Environment\opencv_contrib-4.2.0\install\x64\vc14\lib\opencv_xfeatures2d420d.lib : warning LNK4272: 库计算机类型“x64”与目标计算机类型“x86”冲突
+E:\Environment\opencv_contrib-4.2.0\install\x64\vc14\lib\opencv_ximgproc420d.lib : warning LNK4272: 库计算机类型“x64”与目标计算机类型“x86”冲突
+E:\Environment\opencv_contrib-4.2.0\install\x64\vc14\lib\opencv_xobjdetect420d.lib : warning LNK4272: 库计算机类型“x64”与目标计算机类型“x86”冲突
+E:\Environment\opencv_contrib-4.2.0\install\x64\vc14\lib\opencv_xphoto420d.lib : warning LNK4272: 库计算机类型“x64”与目标计算机类型“x86”冲突
+E:\code\MyTinyRender\Debug\MyTinyRender.exe : fatal error LNK1120: 4 个无法解析的外部命令

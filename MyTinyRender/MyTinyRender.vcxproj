@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{FC9F3BFA-5722-4FEA-B842-B342DA0C9217}</ProjectGuid>
+    <RootNamespace>MyTinyRender</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>E:\Environment\opencv_contrib-4.2.0\install\include;E:\Environment\opencv_contrib-4.2.0\install\include\opencv2;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <IncludePath>E:\Environment\opencv_contrib-4.2.0\install\include\opencv2;E:\Environment\opencv_contrib-4.2.0\install\include;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>E:\Environment\opencv_contrib-4.2.0\install\include;E:\Environment\opencv_contrib-4.2.0\install\include\opencv2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <AdditionalDependencies>opencv_aruco420d.lib;opencv_bgsegm420d.lib;opencv_bioinspired420d.lib;opencv_calib3d420d.lib;opencv_ccalib420d.lib;opencv_core420d.lib;opencv_cudaarithm420d.lib;opencv_cudabgsegm420d.lib;opencv_cudacodec420d.lib;opencv_cudafeatures2d420d.lib;opencv_cudafilters420d.lib;opencv_cudaimgproc420d.lib;opencv_cudalegacy420d.lib;opencv_cudaobjdetect420d.lib;opencv_cudaoptflow420d.lib;opencv_cudastereo420d.lib;opencv_cudawarping420d.lib;opencv_cudev420d.lib;opencv_datasets420d.lib;opencv_dnn420d.lib;opencv_dnn_objdetect420d.lib;opencv_dnn_superres420d.lib;opencv_dpm420d.lib;opencv_face420d.lib;opencv_features2d420d.lib;opencv_flann420d.lib;opencv_fuzzy420d.lib;opencv_gapi420d.lib;opencv_hfs420d.lib;opencv_highgui420d.lib;opencv_imgcodecs420d.lib;opencv_imgproc420d.lib;opencv_img_hash420d.lib;opencv_line_descriptor420d.lib;opencv_ml420d.lib;opencv_objdetect420d.lib;opencv_optflow420d.lib;opencv_phase_unwrapping420d.lib;opencv_photo420d.lib;opencv_plot420d.lib;opencv_quality420d.lib;opencv_reg420d.lib;opencv_rgbd420d.lib;opencv_saliency420d.lib;opencv_shape420d.lib;opencv_stereo420d.lib;opencv_stitching420d.lib;opencv_structured_light420d.lib;opencv_superres420d.lib;opencv_surface_matching420d.lib;opencv_text420d.lib;opencv_tracking420d.lib;opencv_video420d.lib;opencv_videoio420d.lib;opencv_videostab420d.lib;opencv_xfeatures2d420d.lib;opencv_ximgproc420d.lib;opencv_xobjdetect420d.lib;opencv_xphoto420d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>E:\Environment\opencv_contrib-4.2.0\install\x64\vc14\lib;C:\Program Files (x86)\AMD APP SDK\2.9\lib\x86_64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <AdditionalLibraryDirectories>C:\Program Files (x86)\AMD APP SDK\2.9\lib\x86_64;E:\Environment\opencv_contrib-4.2.0\install\x64\vc14\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>opencv_aruco420d.lib;opencv_bgsegm420d.lib;opencv_bioinspired420d.lib;opencv_calib3d420d.lib;opencv_ccalib420d.lib;opencv_core420d.lib;opencv_cudaarithm420d.lib;opencv_cudabgsegm420d.lib;opencv_cudacodec420d.lib;opencv_cudafeatures2d420d.lib;opencv_cudafilters420d.lib;opencv_cudaimgproc420d.lib;opencv_cudalegacy420d.lib;opencv_cudaobjdetect420d.lib;opencv_cudaoptflow420d.lib;opencv_cudastereo420d.lib;opencv_cudawarping420d.lib;opencv_cudev420d.lib;opencv_datasets420d.lib;opencv_dnn420d.lib;opencv_dnn_objdetect420d.lib;opencv_dnn_superres420d.lib;opencv_dpm420d.lib;opencv_face420d.lib;opencv_features2d420d.lib;opencv_flann420d.lib;opencv_fuzzy420d.lib;opencv_gapi420d.lib;opencv_hfs420d.lib;opencv_highgui420d.lib;opencv_imgcodecs420d.lib;opencv_imgproc420d.lib;opencv_img_hash420d.lib;opencv_line_descriptor420d.lib;opencv_ml420d.lib;opencv_objdetect420d.lib;opencv_optflow420d.lib;opencv_phase_unwrapping420d.lib;opencv_photo420d.lib;opencv_plot420d.lib;opencv_quality420d.lib;opencv_reg420d.lib;opencv_rgbd420d.lib;opencv_saliency420d.lib;opencv_shape420d.lib;opencv_stereo420d.lib;opencv_stitching420d.lib;opencv_structured_light420d.lib;opencv_superres420d.lib;opencv_surface_matching420d.lib;opencv_text420d.lib;opencv_tracking420d.lib;opencv_video420d.lib;opencv_videoio420d.lib;opencv_videostab420d.lib;opencv_xfeatures2d420d.lib;opencv_ximgproc420d.lib;opencv_xobjdetect420d.lib;opencv_xphoto420d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="base.h" />
+    <ClCompile Include="geometry.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="model.cpp" />
+    <ClCompile Include="our_gl.cpp" />
+    <ClCompile Include="tgaimage.cpp" />
+    <ClCompile Include="源.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="geometry.h" />
+    <ClInclude Include="model.h" />
+    <ClInclude Include="our_gl.h" />
+    <ClInclude Include="tgaimage.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

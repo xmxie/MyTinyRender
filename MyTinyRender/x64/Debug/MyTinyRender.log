@@ -1,0 +1,29 @@
+﻿  main.cpp
+e:\code\mytinyrender\mytinyrender\main.cpp(77): warning C4244: “参数”: 从“double”转换到“t”，可能丢失数据
+          with
+          [
+              t=int
+          ]
+e:\code\mytinyrender\mytinyrender\main.cpp(90): warning C4244: “参数”: 从“float”转换到“unsigned char”，可能丢失数据
+e:\code\mytinyrender\mytinyrender\main.cpp(110): warning C4305: “+=”: 从“double”到“float”截断
+e:\code\mytinyrender\mytinyrender\main.cpp(111): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+e:\code\mytinyrender\mytinyrender\main.cpp(112): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+e:\code\mytinyrender\mytinyrender\main.cpp(283): warning C4244: “参数”: 从“int”转换到“t”，可能丢失数据
+          with
+          [
+              t=float
+          ]
+e:\code\mytinyrender\mytinyrender\main.cpp(300): warning C4244: “参数”: 从“t”转换到“int”，可能丢失数据
+          with
+          [
+              t=float
+          ]
+e:\code\mytinyrender\mytinyrender\geometry.h(20): warning C4244: “参数”: 从“float”转换到“t”，可能丢失数据
+          with
+          [
+              t=int
+          ]
+  e:\code\mytinyrender\mytinyrender\geometry.h(20): note: 编译 类 模板 成员函数 "myGeometry::Vec2<int> myGeometry::Vec2<int>::operator *(float) const" 时
+  e:\code\mytinyrender\mytinyrender\main.cpp(271): note: 参见对正在编译的函数 模板 实例化“myGeometry::Vec2<int> myGeometry::Vec2<int>::operator *(float) const”的引用
+  e:\code\mytinyrender\mytinyrender\main.cpp(73): note: 参见对正在编译的 类 模板 实例化 "myGeometry::Vec2<int>" 的引用
+  MyTinyRender.vcxproj -> E:\code\MyTinyRender\x64\Debug\MyTinyRender.exe
